@@ -2,6 +2,8 @@
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	    DerivativeCalculator calc = new DerivativeCalculator();
+
+	    System.out.println(calc.derive("x + 1"));
     }
 }
